@@ -1,8 +1,17 @@
+## proxychains用来访问外网
 
 1. 首先安装proxychains
 
 2. 然后更改为dynamic_chain, ProxyList改为： socks5: 127.0.0.1:1080
 
+3.  这样就可以使用proxychains来访问了：
+```
+proxychains curl ip.gs
+proxychains curl myip.ipip.net
+proxychains firefox
+proxychains git clone git@github.com:xxx
+```
+4. 我的/etc/proxychains.conf	
 ```
 ## proxychains conf 
 
