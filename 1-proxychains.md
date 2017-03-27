@@ -1,3 +1,5 @@
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+
 ## proxychains用来访问外网
 
 1. 首先安装proxychains
