@@ -16,6 +16,6 @@ title: 怎么编写jekyll的markdown文档
     set shiftwidth=4
     set expandtab
     ```
-    Then, in vim visual mode, shift right 4 tabs the ```block
+    Then, in vim visual mode, shift right 4 spaces of the ```block
 
 
