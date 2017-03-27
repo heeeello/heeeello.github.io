@@ -12,7 +12,7 @@ dynamic_chain
 ProxyList改为： socks5: 127.0.0.1:1080
 ```
 
-3.  这样就可以使用proxychains来访问了：
+3. 这样就可以使用proxychains来访问了：
 
 ```bash
 proxychains curl ip.gs
