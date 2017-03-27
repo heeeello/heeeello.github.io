@@ -7,24 +7,25 @@ title: proxychains使用ss代理来访问外网
 
 2. 然后更改/etc/proxychains.conf:
 
-    ```bash
+```bash
 dynamic_chain
 ProxyList改为： socks5: 127.0.0.1:1080
-    ```
+```
 
+{:start="3"}
 3. 这样就可以使用proxychains来访问了：
 
-    ```bash
+```bash
 proxychains curl ip.gs
 proxychains curl myip.ipip.net
 proxychains firefox
 proxychains git clone git@github.com:xxx
-    ```
+```
 
 {:start="4"}
 4. 我的/etc/proxychains.conf	
 
-<code>
+```bash
 ## proxychains conf 
 
 # proxychains.conf  VER 3.1
@@ -88,4 +89,6 @@ tcp_connect_time_out 8000
 # meanwile
 # defaults set to "tor"
 socks5 	127.0.0.1 1080
-</code>
+```
+
+
