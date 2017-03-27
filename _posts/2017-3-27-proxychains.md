@@ -6,9 +6,10 @@ title: proxychains用来访问外网
 1. 首先安装proxychains
 
 2. 然后更改/etc/proxychains.conf:
-- dynamic_chain
--	ProxyList改为： socks5: 127.0.0.1:1080
-
+```bash
+dynamic_chain
+ProxyList改为： socks5: 127.0.0.1:1080
+```
 3.  这样就可以使用proxychains来访问了：
 ```bash
 proxychains curl ip.gs
