@@ -21,10 +21,10 @@ proxychains firefox
 proxychains git clone git@github.com:xxx
     ```
 
-{:start="7"}
+{:start="4"}
 4. 我的/etc/proxychains.conf	
 
-    ```bash
+<pre>
 ## proxychains conf 
 
 # proxychains.conf  VER 3.1
@@ -88,4 +88,4 @@ tcp_connect_time_out 8000
 # meanwile
 # defaults set to "tor"
 socks5 	127.0.0.1 1080
-    ```
+</pre>
