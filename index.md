@@ -1,8 +1,8 @@
-目录
 
-1. proxychains [usage][proxychains]
+# 目录
 
-[proxychains]: proxychains.md "config example"
+### 1. 使用proxychains [usage][proxychains]
 
+[proxychains]: 1-proxychains.md "config file example"
 
 

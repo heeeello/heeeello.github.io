@@ -1,4 +1,9 @@
 
+1. 首先安装proxychains
+
+2. 然后更改为dynamic_chain, ProxyList改为： socks5: 127.0.0.1:1080
+
+```
 ## proxychains conf 
 
 # proxychains.conf  VER 3.1
@@ -62,4 +67,4 @@ tcp_connect_time_out 8000
 # meanwile
 # defaults set to "tor"
 socks5 	127.0.0.1 1080
-
+```
