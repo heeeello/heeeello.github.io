@@ -1,6 +1,6 @@
 ---
 layout: post
-title: proxychains用来访问外网
+title: proxychains使用ss代理来访问外网
 ---
 
 1. 首先安装proxychains
