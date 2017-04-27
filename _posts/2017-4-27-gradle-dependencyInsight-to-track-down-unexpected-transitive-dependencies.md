@@ -21,7 +21,7 @@ title: 使用gradle dependencyInsight来查找冲突的依赖包
     //        }
     //    }
 
-        exclude group: 'org.slf4j', module: 'slf4j-log4j12'
+       exclude group: 'org.slf4j', module: 'slf4j-log4j12'
     }
     ```
 
