@@ -89,5 +89,5 @@ title: 使用gralde dependencyInsight来查找冲突的依赖包
 
 4. 参考：
 
-  https://solidsoft.wordpress.com/2014/11/19/gradle-tricks-tracking-down-not-expected-transitive-dependencies/
-  https://solidsoft.wordpress.com/2014/11/13/gradle-tricks-display-dependencies-for-all-subprojects-in-multi-project-build/
+- https://solidsoft.wordpress.com/2014/11/19/gradle-tricks-tracking-down-not-expected-transitive-dependencies/
+- https://solidsoft.wordpress.com/2014/11/13/gradle-tricks-display-dependencies-for-all-subprojects-in-multi-project-build/
