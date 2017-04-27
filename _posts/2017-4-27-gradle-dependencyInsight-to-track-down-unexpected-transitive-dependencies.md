@@ -11,19 +11,17 @@ title: 使用gralde dependencyInsight来查找冲突的依赖包
 可以使用如下的配置块来exclude slf4j-log4j12包的依赖：
     ```
     configurations.all {
-    //        resolutionStrategy.eachDependency { DependencyResolveDetails details ->
-    //            if (details.requested.name == 'log4j') {
-    //                details.useTarget "org.slf4j:log4j-over-slf4j:1.7.21"
-    //            }
-    //            if (details.requested.name == 'commons-logging') {
-    //                details.useTarget "org.slf4j:jcl-over-slf4j:1.7.21"
-    //            }
+    //    resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+    //        if (details.requested.name == 'log4j') {
+    //            details.useTarget "org.slf4j:log4j-over-slf4j:1.7.21"
     //        }
+    //        if (details.requested.name == 'commons-logging') {
+    //            details.useTarget "org.slf4j:jcl-over-slf4j:1.7.21"
+    //        }
+    //    }
 
-            exclude group: 'org.slf4j', module: 'slf4j-log4j12'
-
-
-        }
+           exclude group: 'org.slf4j', module: 'slf4j-log4j12'
+    }
     ```
 
    这样在整个工程中都会排除掉slf4j-log4j12包。
