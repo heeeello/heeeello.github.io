@@ -4,11 +4,11 @@ title: 使用gradle dependencyInsight来查找冲突的依赖包
 ---
 
 1. 问题描述
+   
+   项目使用grails3开发， 包含了一些依赖之后，运行的时候会报告slf4j-logback和slf4j-log4j12有冲突.
+但是并不知道是哪些包使用了logback, 那些包使用了slf4j-log4j12.
 
-项目使用grails3开发， 包含了一些依赖之后，运行的时候会报告slf4j-logback和slf4j-log4j12有冲突.
-但是并不知道是哪些包使用了logback, 那些包使用了slf4j-log4j12.  
-
-可以使用如下的配置块来exclude slf4j-log4j12包的依赖：
+   可以使用如下的配置块来exclude slf4j-log4j12包的依赖
 
     ```shell
     configurations.all {
