@@ -10,7 +10,7 @@ title: 使用gradle dependencyInsight来查找冲突的依赖包
 
 可以使用如下的配置块来exclude slf4j-log4j12包的依赖：
 
-    ```
+    ```shell
     configurations.all {
     //    resolutionStrategy.eachDependency { DependencyResolveDetails details ->
     //        if (details.requested.name == 'log4j') {
