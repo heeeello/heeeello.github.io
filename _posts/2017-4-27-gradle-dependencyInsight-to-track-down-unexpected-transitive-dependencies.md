@@ -9,6 +9,7 @@ title: 使用gralde dependencyInsight来查找冲突的依赖包
 但是并不知道是哪些包使用了logback, 那些包使用了slf4j-log4j12.  
 
 可以使用如下的配置块来exclude slf4j-log4j12包的依赖：
+
     ```
     configurations.all {
     //    resolutionStrategy.eachDependency { DependencyResolveDetails details ->
