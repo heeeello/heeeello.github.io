@@ -4,7 +4,7 @@ title: 使用gradle dependencyInsight来查找冲突的依赖包
 ---
 
 1. 问题描述
-   
+
    项目使用grails3开发， 包含了一些依赖之后，运行的时候会报告slf4j-logback和slf4j-log4j12有冲突.
 但是并不知道是哪些包使用了logback, 那些包使用了slf4j-log4j12.
 
@@ -31,7 +31,7 @@ title: 使用gradle dependencyInsight来查找冲突的依赖包
 
 
 2. 使用gradle dependencies
-   
+
    可以使用gradle dependencies，将所有依赖重定向到一个文件中，然后查找. 这样会发现很多slf4j的依赖，比较难找
 
     ```shell
@@ -40,7 +40,7 @@ title: 使用gradle dependencyInsight来查找冲突的依赖包
     ```
 
 3. 使用gradle dependencyInsight， 反过来查找transitive dependency对应的项目中的最顶层的依赖配置项
-   
+
    这样就很清楚的可以查看冲突的传递包被哪些顶层依赖包包含了。 可以有选择的exclude掉
 
     ```shell
